@@ -1,0 +1,1 @@
+package com.example.SpringJpaLearn.Repositories;import com.example.SpringJpaLearn.Models.Question;import org.springframework.data.repository.CrudRepository;public interface QuestionRepository extends CrudRepository<Question, Integer>  {}
